@@ -26,7 +26,7 @@ tinymce.init({
               label: 'Last Name'
             }
           ],
-          width: 325,
+          width: 500,
           height: 100,
           onsubmit: function(e) {
             editor.insertContent('<span class="abc">'+e.data.firstName+' '+e.data.lastName+'</span>');
